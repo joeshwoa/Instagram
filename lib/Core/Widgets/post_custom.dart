@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:instagram/Features/Home/pres/cubit/home_cubit.dart';
+import 'package:instagram/home/second_page.dart';
 
 class PostCustom extends StatefulWidget {
   const PostCustom({super.key});
@@ -8,7 +11,7 @@ class PostCustom extends StatefulWidget {
 }
 
 class _PostCustomState extends State<PostCustom> {
-  
+
   int favoriteCounter = 0;
   int chatCounter = 0;
   int sendCounter = 0;
@@ -29,6 +32,7 @@ class _PostCustomState extends State<PostCustom> {
                     setState(() {
                       favoriteCounter++;
                     });
+                    context.read<HomeCubit>().plus();
                   },
                   icon: Icon(Icons.favorite_outline,color:Colors.white,),),
                 Text('${favoriteCounter}',style: TextStyle(fontStyle: FontStyle.italic, color: Colors.white)),
