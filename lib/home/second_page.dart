@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:instagram/Core/Widgets/post_custom.dart';
 import 'package:instagram/Core/Widgets/story_custom.dart';
@@ -18,7 +17,7 @@ class SecondPage extends StatelessWidget {
       return Scaffold(
         appBar: AppBar(
           backgroundColor:Colors.grey[900],
-          title: Text(context.read<HomeCubit>().count.toString()/*'Instagram'*/,style: TextStyle(fontStyle: FontStyle.italic, color: Colors.white)),
+          title: Text('Instagram',style: TextStyle(fontStyle: FontStyle.italic, color: Colors.white)),
           actions: [
             IconButton(
               onPressed:(){

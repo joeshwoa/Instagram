@@ -6,8 +6,12 @@ class Assets {
   static const String assetsIcLauncherBackground = 'assets/ic_launcher_background.png';
   static const String assetsIcLauncherForeground = 'assets/ic_launcher_foreground.png';
   static const String assetsIcLauncherMonochrome = 'assets/ic_launcher_monochrome.png';
+  static const String imgesFacebookIcon = 'assets/imges/facebook_icon.png';
+  static const String imgesGoogleIcon = 'assets/imges/google-icon.png';
   static const String imgesInstagramLogo = 'assets/imges/instagram-logo-.png';
+  static const String imgesLoginImage = 'assets/imges/login_image.png';
   static const String imgesMetaLogo = 'assets/imges/Meta_logo.png';
+  static const String imgesRecaptcha = 'assets/imges/recaptcha.png';
   static const String storyimges1 = 'assets/storyimges/1.jpg';
   static const String storyimges2 = 'assets/storyimges/2.jpg';
   static const String storyimges29aefd5fBb23456cA0aaDc50869c6093 = 'assets/storyimges/29aefd5f-bb23-456c-a0aa-dc50869c6093.jpg';

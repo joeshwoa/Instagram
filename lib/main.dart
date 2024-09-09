@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:instagram/Features/Authorization/pres/view/login.dart';
 import 'package:instagram/Features/Home/pres/cubit/home_cubit.dart';
 import 'package:instagram/generated/assets.dart';
 import 'package:instagram/home/frist_page.dart';
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: FristPage(),
+        home: Login(),
       ),
     );
   }
