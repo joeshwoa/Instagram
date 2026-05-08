@@ -33,7 +33,7 @@ class _FristPageState extends State<FristPage>
                 Image (image: AssetImage('assets/imges/instagram-logo-.png'),width: 100,),
               ],
             ),
-            SizedBox(height: 280,width: 10,),
+            SizedBox(height: 281,width: 10,),
             Row(
               crossAxisAlignment: CrossAxisAlignment.end,
               mainAxisAlignment: MainAxisAlignment.center,
